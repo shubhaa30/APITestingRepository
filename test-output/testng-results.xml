@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="API Test Suite" duration-ms="7040" started-at="2021-11-26T23:12:23 PST" finished-at="2021-11-26T23:12:30 PST">
+    <groups>
+    </groups>
+    <test name="Smoke1" duration-ms="7040" started-at="2021-11-26T23:12:23 PST" finished-at="2021-11-26T23:12:30 PST">
+      <class name="apitesting.testcases.GetDataAPI">
+        <test-method status="PASS" signature="getToken()[pri:0, instance:apitesting.testcases.GetDataAPI@4f063c0a]" name="getToken" is-config="true" duration-ms="1" started-at="2021-11-26T23:12:30 PST" finished-at="2021-11-26T23:12:30 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getToken -->
+        <test-method status="PASS" signature="TC11()[pri:0, instance:apitesting.testcases.GetDataAPI@4f063c0a]" name="TC11" duration-ms="4" started-at="2021-11-26T23:12:30 PST" finished-at="2021-11-26T23:12:30 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC11 -->
+      </class> <!-- apitesting.testcases.GetDataAPI -->
+      <class name="apitesting.testcases.LoginAPI">
+        <test-method status="PASS" signature="intializeTestCase()[pri:0, instance:apitesting.testcases.LoginAPI@5d76b067]" name="intializeTestCase" is-config="true" duration-ms="6860" started-at="2021-11-26T23:12:23 PST" finished-at="2021-11-26T23:12:30 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeTestCase -->
+        <test-method status="PASS" signature="TC1()[pri:0, instance:apitesting.testcases.LoginAPI@5d76b067]" name="TC1" duration-ms="77" started-at="2021-11-26T23:12:30 PST" finished-at="2021-11-26T23:12:30 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC1 -->
+      </class> <!-- apitesting.testcases.LoginAPI -->
+      <class name="apitesting.testcases.AddDataAPI">
+        <test-method status="PASS" signature="getToken()[pri:0, instance:apitesting.testcases.AddDataAPI@2a17b7b6]" name="getToken" is-config="true" duration-ms="2" started-at="2021-11-26T23:12:30 PST" finished-at="2021-11-26T23:12:30 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getToken -->
+        <test-method status="PASS" signature="TC6()[pri:0, instance:apitesting.testcases.AddDataAPI@2a17b7b6]" name="TC6" duration-ms="2" started-at="2021-11-26T23:12:30 PST" finished-at="2021-11-26T23:12:30 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC6 -->
+      </class> <!-- apitesting.testcases.AddDataAPI -->
+    </test> <!-- Smoke1 -->
+  </suite> <!-- API Test Suite -->
+</testng-results>
